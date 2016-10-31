@@ -30,7 +30,7 @@
                 <h2>What car would you like?</h2>
                 <label>Cars
                     <select name="choosecar" required>
-                        <option value=""></option>
+                        <option value=""> - </option>
                         <option value="audi">Audi</option>
                         <option value="bently">Bently</option>
                         <option value="bmw">BMW</option>
@@ -46,7 +46,7 @@
                 <br>
                 <label>Type of car
                     <select name="type" required>
-                        <option value=""></option>
+                        <option value=""> - </option>
                         <option value="sedan">Sedan</option>
                         <option value="cabrio">Cabrio</option>
                         <option value="hetch">Hetchback</option>
@@ -57,7 +57,7 @@
                                     <!-- Опитник2 -->
                 <h2>What would you like your car to be?</h2>
                 <label>
-    				<input type="checkbox" name="carts">Big
+    				<input type="checkbox"  name="carts">Big
                     <br>
                 </label>
                 <label>
@@ -76,16 +76,28 @@
                     <input type="checkbox" name="carte">Safe
                 <br>
                 </label>
+                                     <!-- Опитник3 -->
+                <h2>What fuel do you prefer?</h2>
+                <input type="radio" name="typefuel" value="gasoline"/>Gasoline
+                <br>
+                <input type="radio" name="typefuel" value="diesel"/>Diesel
+                <br>
+                <input type="radio" name="typefuel" value="gas"/>Gas/Gasoline
+                <br>
+                <input type="radio" name="typefuel" value="electric"/>Electric
+                <br>
+                <input type="radio" name="typefuel" value="hybrid"/>Hybrid
+                <br>
+            <input type="submit" name="submit" value="Send">
                 <label>Somethink you want to add:</label>
                 <textarea id="comment" placeholder="Your comment"></textarea>
                 <br>
-                
-                <input type="submit" name="submit" value="Send">
-                </fieldset>
-                
+            </fieldset>
         </form>
-        <form action="https://lessonthreehw-notsaint.c9users.io/index.html">
+         <form action="https://lessonthreehw-notsaint.c9users.io/index.html">
+            <fieldset>
                 <input type="submit" name="page2" value="Go back"/>
+            </fieldset>
         </form>
     </body>
 </html>
