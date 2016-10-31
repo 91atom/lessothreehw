@@ -28,7 +28,7 @@
                                     <!-- Опитник -->
             <fieldset>
                 <h2>What car would you like?</h2>
-                <label>Cars
+                <label for="cars">Cars
                     <select name="cars" required>
                         <option value="" selected></option>
                         <option value="audi">Audi</option>
@@ -54,18 +54,26 @@
                         <option value="universal">Universal</option>
                     </select>
                 </label>
+                                    <!-- Опитник2 -->
                 <h2>What would you like your car to be?</h2>
-                <label>
-                    <input type="checkbox">Economical
-                    <br>
-                    <input type="checkbox">Fast
-                    <br>
-                    <input type="checkbox">Comfortable
-                    <br>
-                    <input type="checkbox">Big
-                    <br>
-                    <input type="checkbox">Safe
-                    <br>
+                <label for="cart">
+                    <input type="checkbox" name="cart" value="economical">Economical
+                </label>
+                <br>
+                <label for="cart">
+                    <input type="checkbox" name="cart" value="fast">Fast
+                </label>
+                <br>
+                <label for="cart">
+                    <input type="checkbox" name="cart" value="comfortable">Comfortable
+                </label>
+                <br>
+                <label for="cart">
+                    <input type="checkbox" name="cart" value="big">Big
+                </label>
+                <br>
+                <label for="cart">
+                    <input type="checkbox" name="cart" value="safe">Safe
                 </label>
                 <br>
                 <label>Somethink you want to add:</label>
@@ -74,6 +82,7 @@
                 
                 <input type="submit" name="submit" value="Send">
                 </fieldset>
+                
         </form>
         <form action="https://lessonthreehw-notsaint.c9users.io/index.html">
                 <input type="submit" name="submit" value="Go back"/>
