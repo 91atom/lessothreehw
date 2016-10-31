@@ -21,16 +21,16 @@
                 <label for="car">Your car:</label>
                 <input type="text" name="car" id="car" pattern="^[a-zA-Z]+$" title="Mersedec" placeholder="Mercedes" >
                 <br>
-                <label for="car">Car plate number:</label>
-                <input type="text" name="car" id="car" pattern="[A-Z]{2}[0-9]{4}[A-Z]{2}" title="AA1234BB" placeholder="AA1234BB" required>
+                <label for="plates">Car plate number:</label>
+                <input type="text" name="plates" id="plates" pattern="[A-Z]{2}[0-9]{4}[A-Z]{2}" title="AA1234BB" placeholder="AA1234BB" required>
                 <br>
             </fieldset>
                                     <!-- Опитник -->
             <fieldset>
                 <h2>What car would you like?</h2>
-                <label name="Cars" required>Cars
+                <label>Cars
                     <select name="cars" required>
-                        <option value="blank" selected> </option>
+                        <option value="blank" selected></option>
                         <option value="audi">Audi</option>
                         <option value="bently">Bently</option>
                         <option value="bmw">BMW</option>
@@ -44,7 +44,7 @@
                     </select>
                 </label>
                 <br>
-                <label for="types">Type of car
+                <label>Type of car
                     <select name="type" required>
                         <option value="blank" selected></option>
                         <option value="sedan">Sedan</option>
@@ -55,7 +55,7 @@
                     </select>
                 </label>
                 <h2>What would you like your car to be?</h2>
-                <label for="name" required>
+                <label>
                     <input type="checkbox" name="typeofcar">Economical
                     <br>
                     <input type="checkbox" name="typeofcar">Fast
@@ -68,7 +68,7 @@
                     <br>
                 </label>
                 <br>
-                <label for="comment">Somethink you want to add:</label>
+                <label>Somethink you want to add:</label>
                 <textarea id="comment" placeholder="Your comment"></textarea>
                 <br>
                 
